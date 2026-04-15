@@ -1,0 +1,32 @@
+test_config_command_structure (__main__.TestClientProtocol.test_config_command_structure) ... ok
+test_response_error_structure (__main__.TestClientProtocol.test_response_error_structure) ... ok
+test_response_ok_structure (__main__.TestClientProtocol.test_response_ok_structure) ... ok
+test_start_command (__main__.TestClientProtocol.test_start_command) ... ok
+test_status_command (__main__.TestClientProtocol.test_status_command) ... ok
+test_stop_command (__main__.TestClientProtocol.test_stop_command) ... ok
+test_config_requires_diameter (__main__.TestCommandValidation.test_config_requires_diameter) ... ok
+test_config_requires_flow_rate (__main__.TestCommandValidation.test_config_requires_flow_rate) ... ok
+test_direction_valid_values (__main__.TestCommandValidation.test_direction_valid_values) ... ok
+test_flow_rate_must_be_positive (__main__.TestCommandValidation.test_flow_rate_must_be_positive) ... ok
+test_microstep_valid_values (__main__.TestCommandValidation.test_microstep_valid_values) ... ok
+test_rpm_calculation_10ml_syringe (__main__.TestFlowCalculation.test_rpm_calculation_10ml_syringe)
+RPM para jeringa 10mm a 1ml/min ... ok
+test_rpm_calculation_higher_flow (__main__.TestFlowCalculation.test_rpm_calculation_higher_flow)
+RPM para mayor flujo ... ok
+test_rpm_increases_with_flow (__main__.TestFlowCalculation.test_rpm_increases_with_flow)
+Mayor flujo = mayor RPM ... ok
+test_step_frequency_calculation (__main__.TestFlowCalculation.test_step_frequency_calculation)
+Cálculo de frecuencia de steps ... ok
+test_json_command_roundtrip (__main__.TestIntegration.test_json_command_roundtrip) ... ok
+test_mock_serial_write (__main__.TestIntegration.test_mock_serial_write) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.000s
+
+OK
+
+=== RESUMEN ===
+Tests ejecutados: 17
+Fallidos: 0
+Errores: 0
+TODOS LOS TESTS PASARON
